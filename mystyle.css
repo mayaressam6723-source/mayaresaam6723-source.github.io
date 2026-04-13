@@ -57,14 +57,13 @@ nav a:hover {
   color: gray;
 }
 footer {
-  position: fixed;
-  bottom: 0;
-  text-align:center;
+  text-align: center;
   width: 100%;
-  font-size:xx-small;
-  color:silver ;
-  background:rgb(0, 0, 13);
+  font-size: xx-small;
+  color: silver;
+  background: rgb(0, 0, 13);
   margin-top: 20px;
+  padding: 10px 0;
 }
 table{
   margin: auto;  
