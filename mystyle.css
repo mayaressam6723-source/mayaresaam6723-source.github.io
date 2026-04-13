@@ -83,7 +83,6 @@ footer {
   color: silver;
   background: rgb(0, 0, 13);
   padding: 10px 0;
-  margin-top: auto;
 }
 
 table{
@@ -191,7 +190,7 @@ input::placeholder{
   }
      table {
   width: 100%;
-  font-size: 11px;
+  font-size:5px;
 }
 
 th, td {
