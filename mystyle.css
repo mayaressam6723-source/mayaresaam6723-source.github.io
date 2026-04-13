@@ -10,7 +10,6 @@ body{
      display: flex;
      flex-direction: column;
      min-height: 100vh;
-     height: 100%;
 }
 
 html, body {
@@ -83,6 +82,7 @@ footer {
   color: silver;
   background: rgb(0, 0, 13);
   padding: 10px 0;
+  margin-top: auto;
 }
 
 table{
@@ -112,6 +112,33 @@ form{
     padding: 50px;
     color:lightgray;
 }
+
+input[type=text],input[type=textarea] {
+  background-color:gray;
+  width: 100%;  
+  padding: 10px; 
+  margin: auto ;
+  border: 1px solid;
+  border-radius: 10px;
+  color:rgb(0, 0, 18);
+}
+
+input[type=submit],input[type=reset] {
+  background-color:rgb(37, 37, 77);
+  color: white;
+  padding: 14px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover,input[type=reset]:hover {
+  background-color:rgb(1, 1, 8);
+}
+
+input::placeholder{
+    color: lightgray;
+}
+
 @media (max-width: 768px) {
 
   nav {
@@ -120,21 +147,28 @@ form{
 
   nav a {
     display: inline-block;
-    margin: 5px;
+    margin: 6px;
     padding: 6px;
-    font-size: 13px;
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
   }
 
   table {
-    width: 100%;
-    font-size: 11px;
     display: block;
     overflow-x: auto;
+    width: 100%;
   }
 
   th, td {
-    padding: 5px;
-    font-size: 11px;
+    font-size: 12px;
+    padding: 6px;
     white-space: nowrap;
   }
 
@@ -146,5 +180,12 @@ form{
     width: 100%;
     box-sizing: border-box;
   }
-}
-  
+
+  body {
+    padding-top: 80px;
+  }
+
+  footer {
+    position: relative;
+  }
+}  
