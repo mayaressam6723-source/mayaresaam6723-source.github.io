@@ -112,62 +112,39 @@ form{
     padding: 50px;
     color:lightgray;
 }
+@media (max-width: 768px) {
 
-input[type=text],input[type=textarea] {
-  background-color:gray;
-  width: 100%;  
-  padding: 10px; 
-  margin: auto ;
-  border: 1px solid;
-  border-radius: 10px;
-  color:rgb(0, 0, 18);
-}
+  nav {
+    text-align: center;
+  }
 
-input[type=submit],input[type=reset] {
-  background-color:rgb(37, 37, 77);
-  color: white;
-  padding: 14px;
-  margin: 8px;
-  border-radius: 4px;
-}
+  nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 6px;
+    font-size: 13px;
+  }
 
-input[type=submit]:hover,input[type=reset]:hover {
-  background-color:rgb(1, 1, 8);
-}
+  table {
+    width: 100%;
+    font-size: 11px;
+    display: block;
+    overflow-x: auto;
+  }
 
-input::placeholder{
-    color: lightgray;
-}
-table {
-  width: 95%;
-  font-size: 12px;
-  overflow-x: auto;
-  display: block;
-}
+  th, td {
+    padding: 5px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
 
-th, td {
-  padding: 6px;
-  font-size: 12px;
-  white-space: nowrap;
-}
+  form {
+    padding: 15px;
+  }
 
-nav {
-  text-align: center;
+  input[type=text], input[type=textarea] {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
-
-nav a {
-  display: inline-block;
-  margin: 5px;
-  padding: 6px;
-}
-
-footer {
-  text-align: center;
-  width: 100%;
-  font-size: xx-small;
-  color: silver;
-  background: rgb(0, 0, 13);
-  padding: 10px 0;
-}
-
   
