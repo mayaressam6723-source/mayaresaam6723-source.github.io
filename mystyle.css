@@ -162,6 +162,10 @@ input::placeholder{
   main {
     padding-bottom: 60px;
   }
+
+  footer {
+    position: relative;
+  }
 }
 
   footer {
