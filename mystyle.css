@@ -10,6 +10,7 @@ body{
      display: flex;
      flex-direction: column;
      min-height: 100vh;
+     height: 100%;
 }
 
 html, body {
@@ -188,6 +189,15 @@ input::placeholder{
   footer {
     position: relative;
   }
+     table {
+  width: 100%;
+  font-size: 11px;
+}
+
+th, td {
+  padding: 4px;
+  font-size: 11px;
+}
 }
 
   
