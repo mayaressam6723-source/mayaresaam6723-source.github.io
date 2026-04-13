@@ -114,3 +114,53 @@ input[type=submit]:hover,input[type=reset]:hover {
 input::placeholder{
     color: lightgray;
 }
+@media (max-width: 768px) {
+
+  body {
+    padding-top: 120px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  th, td {
+    font-size: 12px;
+    padding: 6px;
+    white-space: nowrap;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  input[type=text], input[type=textarea] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  footer {
+    position: relative;
+  }
+}
