@@ -7,6 +7,15 @@ body{
      padding-top: 70px;
      font-family:Arial ;
      color:gray;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+}
+html, body {
+  height: 100%;
+}
+main {
+  flex: 1;
 }
 header{
     font-size: large;
@@ -62,7 +71,6 @@ footer {
   font-size: xx-small;
   color: silver;
   background: rgb(0, 0, 13);
-  margin-top: 20px;
   padding: 10px 0;
 }
 table{
