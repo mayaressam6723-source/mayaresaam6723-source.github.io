@@ -82,6 +82,7 @@ table{
   margin: auto;  
   border-collapse: collapse;
   font-family: Arial, sans-serif;
+  width:100%;   
 }
 
 th {
@@ -131,6 +132,9 @@ input[type=submit]:hover,input[type=reset]:hover {
 input::placeholder{
     color: lightgray;
 }
+.table-container{
+     overflow-x:auto;
+}
 @media (max-width: 768px) {
 
   nav {
@@ -157,8 +161,8 @@ input::placeholder{
   }
 
   th, td {
-    font-size: 11px;
-    padding: 6px;
+    font-size: 12px;
+    padding: 8px;
     white-space: nowrap;
   }
 
